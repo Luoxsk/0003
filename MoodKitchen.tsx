@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { MoodHistory, DailyEntry, MoodType } from '../types';
-import { UI_TEXT, INGREDIENTS, DISH_RECIPES, DishRecipe } from '../constants';
+import { MoodHistory, DailyEntry, MoodType } from './types';
+import { UI_TEXT, INGREDIENTS, DISH_RECIPES, DishRecipe } from './constants';
 import { ChefHat, Utensils } from 'lucide-react';
 
 interface MoodKitchenProps {
