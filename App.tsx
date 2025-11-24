@@ -2,15 +2,17 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { MoodHistory, DailyEntry, MoodType, PetType } from './types';
 import { LOCAL_STORAGE_KEY, LOCAL_STORAGE_PET_NAME, LOCAL_STORAGE_PET_TYPE, UI_TEXT } from './constants';
-import { FarmGrid } from './components/FarmGrid';
-import { DailyCheckIn } from './components/DailyCheckIn';
-import { StatsSummary, StatsChart } from './components/StatsPanel';
-import { WeatherLayer } from './components/WeatherLayer';
-import { FarmSpirit } from './components/FarmSpirit';
-import { HistoryModal } from './components/HistoryModal';
-import { MoodKitchen } from './components/MoodKitchen';
-import { PixelCalendar } from './components/PixelCalendar';
-import { NameModal } from './components/NameModal'; // Import NameModal
+import FarmGrid from "./FarmGrid";
+import FarmSpirit from "./FarmSpirit";
+import HistoryModal from "./HistoryModal";
+import MoodKitchen from "./MoodKitchen";
+import NameModal from "./NameModal";
+import DailyCheckIn from "./DailyCheckIn";
+import ChatInterface from "./ChatInterface";
+import PixelCalendar from "./PixelCalendar";
+import StatsPanel from "./StatsPanel";
+import WeatherLayer from "./WeatherLayer";
+ // Import NameModal
 import { Sprout } from 'lucide-react';
 
 const App: React.FC = () => {
