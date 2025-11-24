@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { MoodType, DailyEntry, MoodConfig } from '../types';
+import { MoodType, DailyEntry, MoodConfig } from './types';
 import { MOOD_OPTIONS, UI_TEXT } from './constants';
 import { Axe } from 'lucide-react';
 
