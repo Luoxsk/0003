@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { UI_TEXT, PET_OPTIONS } from '../constants';
-import { PetType } from '../types';
+import { UI_TEXT, PET_OPTIONS } from './constants';
+import { PetType } from './types';
 
 interface NameModalProps {
   isOpen: boolean;
