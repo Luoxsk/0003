@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { DailyEntry, MoodHistory } from '../types';
-import { FARM_GRID_SIZE, MOOD_OPTIONS } from '../constants';
+import { FARM_GRID_SIZE, MOOD_OPTIONS } from './constants';
 
 interface FarmGridProps {
   history: MoodHistory;
