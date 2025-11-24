@@ -2,8 +2,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { GoogleGenAI, Chat } from "@google/genai";
 import { Send, X, Loader2 } from 'lucide-react';
-import { MoodType } from '../types';
-import { MOOD_OPTIONS } from '../constants';
+import { MoodType } from './types';
+import { MOOD_OPTIONS } from './constants';
 
 interface ChatInterfaceProps {
   mood: MoodType | null;
