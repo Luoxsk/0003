@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState, useRef, useCallback } from 'react';
-import { MoodType, PetType } from '../types';
-import { CAT_DIALOGUES } from '../constants';
+import { MoodType, PetType } from './types';
+import { CAT_DIALOGUES } from './constants';
 import { ChatInterface } from './ChatInterface';
 import { MessageCircle, Pencil } from 'lucide-react';
 
