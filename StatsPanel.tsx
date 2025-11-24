@@ -1,7 +1,7 @@
 
 import React, { useMemo } from 'react';
-import { MoodHistory, DailyEntry, MoodType } from '../types';
-import { MOOD_OPTIONS, UI_TEXT } from '../constants';
+import { MoodHistory, DailyEntry, MoodType } from './types';
+import { MOOD_OPTIONS, UI_TEXT } from './constants';
 import { BarChart2 } from 'lucide-react';
 import { BarChart, Bar, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 
