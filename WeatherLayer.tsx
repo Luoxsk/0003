@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { MoodType } from '../types';
+import { MoodType } from './types';
 
 interface WeatherLayerProps {
   mood: MoodType | null;
