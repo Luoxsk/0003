@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { DailyEntry } from '../types';
-import { MOOD_OPTIONS, UI_TEXT } from '../constants';
+import { MOOD_OPTIONS, UI_TEXT } from './constants';
 import { X } from 'lucide-react';
 
 interface HistoryModalProps {
