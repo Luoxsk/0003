@@ -2,7 +2,7 @@
 import React, { useState, useMemo } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { MoodHistory, MoodType } from '../types';
-import { MOOD_OPTIONS } from '../constants';
+import { MOOD_OPTIONS } from './constants';
 
 interface PixelCalendarProps {
   isOpen: boolean;
