@@ -7,8 +7,12 @@ interface WeatherLayerProps {
 
 type WeatherType = 'sunny' | 'cloudy' | 'light_rain' | 'heavy_rain' | 'snow';
 
-export const WeatherLayer: React.FC<WeatherLayerProps> = ({ mood }) => {
-  
+const WeatherLayer: React.FC<WeatherLayerProps> = ({ mood }) => {
+  ...
+};
+
+export default WeatherLayer;
+
   const weather: WeatherType = useMemo(() => {
     switch (mood) {
       case 'happy': return 'sunny';
@@ -156,3 +160,5 @@ const PixelCloud: React.FC<{ scale: number; color: string }> = ({ scale, color }
     </svg>
   </div>
 );
+export default WeatherLayer;
+
